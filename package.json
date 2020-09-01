@@ -1,0 +1,50 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "shard.js",
+  "scripts": {
+    "start": "node shard.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "common-tags": "^1.8.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^11.6.4",
+    "express": "^4.17.1",
+    "google-tts-api": "0.0.4",
+    "iconv-lite": "^0.6.2",
+    "jimp": "^0.6.8",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "node-opus": "^0.3.3",
+    "os": "^0.1.1",
+    "pretty-ms": "^7.0.0",
+    "quick.db": "^7.1.1",
+    "request-promise-native": "^1.0.9",
+    "return-deep-diff": "^0.4.0",
+    "simple-youtube-api": "^5.2.1",
+    "speedtest-net": "^1.6.2",
+    "superagent": "^5.3.1",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^3.2.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {},
+  "author": ""
+}
